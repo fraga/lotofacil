@@ -6,7 +6,7 @@ require 'open-uri'
 class GameRequest
 
   def initialize
-    
+    facil = 'test'
   end
 
   def self.get_games(url)
