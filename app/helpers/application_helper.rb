@@ -18,7 +18,7 @@ class GameRequest
     games_array = doc.xpath('//td[@class="txtdezena"]')
 
     games_array.each do |line|
-      line.content.gsub(/\ \W+/, '-').split('-').each do |element|
+      line.content.gsub(/\S+\w+\S+/, '-').split('-').each do |element|
         final_result << element.strip()
       end
     end
