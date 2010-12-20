@@ -2,12 +2,12 @@ require "test/unit"
 
 class GameRequestTest < Test::Unit::TestCase
   
-  #def setup
+  def setup
     #CaixaGameRequest.new()
-  #end
+  end
 
-  #def teardown
-  #end
+  def teardown
+  end
 
   def test_games
     url = '../fixtures/loto_facil_latest_game.html'

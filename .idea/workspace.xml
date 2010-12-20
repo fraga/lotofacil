@@ -5,12 +5,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list default="true" id="ba651ed2-6475-4058-868c-d20b289fa895" name="add" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/loto_facil_latest_game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/game_request_test.rb" afterPath="$PROJECT_DIR$/test/unit/game_request_test.rb" />
     </list>
     <ignored path="lotofacil.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="ba651ed2-6475-4058-868c-d20b289fa895" time="1292770908361" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="ba651ed2-6475-4058-868c-d20b289fa895" time="1292849254258" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game_request_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game_request_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/game_request_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.52362204">
+            <state line="4" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,7 +52,7 @@
       <file leaf-file-name="loto_facil_latest_game.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/loto_facil_latest_game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="459" column="6" selection-start="15067" selection-end="15067" vertical-scroll-proportion="-16.333334">
+            <state line="459" column="6" selection-start="15067" selection-end="15067" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/loto_facil_game.rb" />
         <option value="$PROJECT_DIR$/app/views/loto_facil/all.html.erb" />
         <option value="$PROJECT_DIR$/app/views/loto_facil/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/loto_facil/nogames.html.erb" />
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20101211030813_add_details_to_loto_facil_games.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/loto_facil_latest_game.html" />
         <option value="$PROJECT_DIR$/test/unit/game_request_test.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -135,8 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,7 +173,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,28 +192,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotofacil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotofacil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,6 +211,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,7 +415,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -650,7 +641,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="22" width="1420" height="860" extended-state="0" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -702,11 +693,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/loto_facil/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="2" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" />
@@ -759,9 +745,7 @@
     </entry>
     <entry file="file:///Library/Ruby/Gems/1.8/gems/nokogiri-1.4.4/lib/nokogiri/xml/node_set.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="0" selection-start="6382" selection-end="6382" vertical-scroll-proportion="0.027559055">
-          <folding />
-        </state>
+        <state line="238" column="0" selection-start="6382" selection-end="6382" vertical-scroll-proportion="0.027559055" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/loto_facil/nogames.html.erb">
@@ -778,14 +762,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/loto_facil_latest_game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="459" column="6" selection-start="15067" selection-end="15067" vertical-scroll-proportion="-16.333334">
+        <state line="459" column="6" selection-start="15067" selection-end="15067" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/game_request_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="389" selection-end="389" vertical-scroll-proportion="0.52362204">
+        <state line="4" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
