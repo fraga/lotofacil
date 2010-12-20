@@ -1,9 +1,5 @@
-class LotoFacilController < ApplicationController
+class Loterias::LotofacilController < ApplicationController
   def index
-
-  end
-
-  def nogames
 
   end
 
@@ -17,17 +13,7 @@ class LotoFacilController < ApplicationController
     end
   end
 
-  def all
-    @lotofacil = LotoFacilGame.all
-
-    redirect_to('index') unless @lotofacil != nil
-
-    respond_to do |format|
-      format.xml { render :xml => @lotofacil }
-    end
-  end
-
-  def game
+  def show
     @lotofacil = LotoFacilGame.where(:gameid => params[:id])
 
     respond_to do |format|
@@ -36,5 +22,4 @@ class LotoFacilController < ApplicationController
 
   end
 
-  
 end

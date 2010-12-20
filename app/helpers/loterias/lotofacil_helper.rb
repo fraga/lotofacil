@@ -1,0 +1,2 @@
+module Loterias::LotofacilHelper
+end

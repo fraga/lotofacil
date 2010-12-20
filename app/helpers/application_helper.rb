@@ -6,7 +6,7 @@ require 'iconv'
 
 module ApplicationHelper
 
-
+#TODO define a more fancy metaclass factory structure
 class GameRequest
 
   def self.get_games(url)

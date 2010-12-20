@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class LotoFacilGameTest < ActiveSupport::TestCase
+class Loterias::LotofacilControllerTest < ActionController::TestCase
   # Replace this with your real tests.
   test "the truth" do
     assert true
