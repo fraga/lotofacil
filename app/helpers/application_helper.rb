@@ -2,27 +2,24 @@ require 'rubygems'
 require 'nokogiri'
 require 'net/http'
 require 'open-uri'
+require 'zip/zip'
 require 'iconv'
 
 module ApplicationHelper
+  def self.unzip_file (file, destination)
+    Zip::ZipFile.open(file) { |zip_file|
+      zip_file.each { |f|
+        f_path=File.join(destination, f.name)
+        FileUtils.mkdir_p(File.dirname(f_path))
+        zip_file.extract(f, f_path) unless File.exist?(f_path)
+      }
+    }
+  end
 
-#TODO define a more fancy metaclass factory structure
-class GameRequest
-
-  def self.get_games(url)
-    #get exceptions later
-    final_result = []
-    #doc = Nokogiri::HTML(Iconv.conv('utf-8//IGNORE', 'ISO-8859-1', open(url).read))
-    doc = Nokogiri::HTML(open(url))
-
-    games_array = doc.xpath('//td[@class="txtdezena"]')
-
-    games_array.each do |line|
-      line.content.gsub(/\S+\w+\S+/, '-').split('-').each do |element|
-        final_result << element.strip()
-      end
-    end
-    final_result
+  def self.format_number(number)
+    number.delete('.').to_f
   end
 end
-end
+
+
+

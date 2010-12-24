@@ -10,7 +10,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101211030813) do
+ActiveRecord::Schema.define(:version => 20101224164956) do
+
+  create_table "customers", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "loto_facil_games", :force => true do |t|
     t.string   "n1"
@@ -28,15 +34,14 @@ ActiveRecord::Schema.define(:version => 20101211030813) do
     t.string   "n13"
     t.string   "n14"
     t.string   "n15"
-    t.text     "hash"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.integer  "game_id"
     t.datetime "game_date"
     t.integer  "winners_15"
     t.integer  "winners_14"
     t.integer  "winners_13"
     t.integer  "winners_12"
+    t.integer  "winners_11"
+    t.decimal  "total_amount_received"
     t.decimal  "amount_div_15"
     t.decimal  "amount_div_14"
     t.decimal  "amount_div_13"
@@ -44,8 +49,8 @@ ActiveRecord::Schema.define(:version => 20101211030813) do
     t.decimal  "amount_div_11"
     t.decimal  "amount_accumulated_15"
     t.decimal  "amount_prize_estimate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
-
-  add_index "loto_facil_games", ["game_id"], :name => "index_loto_facil_games_on_game_id"
 
 end

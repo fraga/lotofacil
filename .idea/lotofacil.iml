@@ -30,6 +30,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="rubyzip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" lib="sqlite3" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -72,6 +78,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.2.12, /Library/Ruby/Gems/1.8/gems/mail-2.2.12)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.3, /Library/Ruby/Gems/1.8/gems/activemodel-3.0.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.2.1, /Library/Ruby/Gems/1.8/gems/rack-1.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rubyzip (v0.9.4, /Library/Ruby/Gems/1.8/gems/rubyzip-0.9.4)" level="application" />
   </component>
 </module>
 
