@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list id="d67b021d-cef6-4448-af8e-a029eeec6f01" name="Default" comment="" />
     <list default="true" id="ba651ed2-6475-4058-868c-d20b289fa895" name="add" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/loterias/lotofacil/show.html.erb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20101211030813_add_details_to_loto_facil_games.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lotofacil.iml" afterPath="$PROJECT_DIR$/.idea/lotofacil.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/loto_facil_game.rb" afterPath="$PROJECT_DIR$/app/models/loto_facil_game.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb" afterPath="$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20101209164513_create_loto_facil_games.rb" afterPath="$PROJECT_DIR$/db/migrate/20101209164513_create_loto_facil_games.rb" />
@@ -50,10 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lotofacil_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lotofacil_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="67" selection-start="768" selection-end="768" vertical-scroll-proportion="0.41666666">
+            <state line="8" column="20" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_all_games.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/fixtures/loto_facil_latest_game.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/unit/game_request_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/loto_facil_controller.rb" />
@@ -161,8 +167,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20101211030813_add_details_to_loto_facil_games.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20101209164513_create_loto_facil_games.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/loterias/lotofacil/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb" />
       </list>
     </option>
   </component>
@@ -1046,7 +1053,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/loterias/lotofacil_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="67" selection-start="768" selection-end="768" vertical-scroll-proportion="0.41666666">
+        <state line="8" column="20" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/loterias/lotofacil/process_all_games.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

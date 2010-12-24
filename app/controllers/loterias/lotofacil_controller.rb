@@ -6,9 +6,9 @@ class Loterias::LotofacilController < ApplicationController
   def process_all_games
     begin
       LotoFacilGame.update_all('http://www1.caixa.gov.br/loterias/_arquivos/loterias/D_lotfac.zip')
+      @message = 'ok'
     rescue Exception => exc
-      message = exc.message
-      flash[:notice] = message
+      @message = exc.message
     end
 
   end
