@@ -28,6 +28,17 @@ class Loterias::LotofacilController < ApplicationController
     end
   end
 
+  def last
+    @latestgame = LotoFacilGame.maximum(:game_date)
+
+    respond_to do |format|
+      format.xml { render :xml => @lotofacil }
+      format.json { render :json => @lotofacil }
+      format.html { render :html => @lotofacil }
+    end
+
+  end
+
   def show
     @lotofacil = LotoFacilGame.where(:game_id => params[:id]).first
 

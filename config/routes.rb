@@ -4,6 +4,7 @@ Lotofacil::Application.routes.draw do
         collection do
           get 'process_all_games'
           get 'latest'
+          get 'last'
         end
       end
   end
