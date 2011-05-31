@@ -1,0 +1,23 @@
+<div>
+  <% if !@lotofacil.nil? && @lotofacil != [] %>
+      <h1>Game <%= @lotofacil.game_id.to_s %></h1>
+  <%= @lotofacil.n1 %>
+  <%= @lotofacil.n2 %>
+  <%= @lotofacil.n3 %>
+  <%= @lotofacil.n4 %>
+  <%= @lotofacil.n5 %>
+  <%= @lotofacil.n6 %>
+  <%= @lotofacil.n7 %>
+  <%= @lotofacil.n8 %>
+  <%= @lotofacil.n9 %>
+  <%= @lotofacil.n10 %>
+  <%= @lotofacil.n11 %>
+  <%= @lotofacil.n12 %>
+  <%= @lotofacil.n13 %>
+  <%= @lotofacil.n14 %>
+  <%= @lotofacil.n15 %>
+  <% else %>
+        Game <%= params[:id] %> not found
+  <% end %>
+
+</div>

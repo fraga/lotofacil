@@ -15,7 +15,7 @@ class Loterias::LotofacilController < ApplicationController
 
   def latest
     begin
-      @latestgame = LotoFacilGame.get_latest_game('http://www1.caixa.gov.br/mobile/loterias/asp/lotofacil_pok.asp')
+      @lotofacil = LotoFacilGame.get_latest_game('http://www1.caixa.gov.br/mobile/loterias/asp/lotofacil_pok.asp')
     rescue Exception => exc
       
     end
