@@ -1,23 +1,22 @@
 <div>
-  <% if !@lotofacil.nil? && @lotofacil != [] %>
-      <h1>Game <%= @lotofacil.game_id.to_s %></h1>
-  <%= @lotofacil.n1 %>
-  <%= @lotofacil.n2 %>
-  <%= @lotofacil.n3 %>
-  <%= @lotofacil.n4 %>
-  <%= @lotofacil.n5 %>
-  <%= @lotofacil.n6 %>
-  <%= @lotofacil.n7 %>
-  <%= @lotofacil.n8 %>
-  <%= @lotofacil.n9 %>
-  <%= @lotofacil.n10 %>
-  <%= @lotofacil.n11 %>
-  <%= @lotofacil.n12 %>
-  <%= @lotofacil.n13 %>
-  <%= @lotofacil.n14 %>
-  <%= @lotofacil.n15 %>
+  <% if !@latestgame.nil? && @latestgame != [] %>
+      <h1>Game (Latest)</h1>
+  <%= @latestgame.n2 %>
+  <%= @latestgame.n3 %>
+  <%= @latestgame.n4 %>
+  <%= @latestgame.n5 %>
+  <%= @latestgame.n6 %>
+  <%= @latestgame.n7 %>
+  <%= @latestgame.n8 %>
+  <%= @latestgame.n9 %>
+  <%= @latestgame.n10 %>
+  <%= @latestgame.n11 %>
+  <%= @latestgame.n12 %>
+  <%= @latestgame.n13 %>
+  <%= @latestgame.n14 %>
+  <%= @latestgame.n15 %>
   <% else %>
-        Game <%= params[:id] %> not found
+        Game not found
   <% end %>
 
 </div>

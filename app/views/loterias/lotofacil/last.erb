@@ -1,6 +1,6 @@
 <div>
   <% if !@lotofacil.nil? && @lotofacil != [] %>
-      <h1>Game <%= @lotofacil.game_id.to_s %></h1>
+      <h1>Game <%= @lotofacil.game_id %></h1>
   <%= @lotofacil.n1 %>
   <%= @lotofacil.n2 %>
   <%= @lotofacil.n3 %>
@@ -17,7 +17,7 @@
   <%= @lotofacil.n14 %>
   <%= @lotofacil.n15 %>
   <% else %>
-        Game <%= params[:id] %> not found
+        NOthing to show here
   <% end %>
 
 </div>

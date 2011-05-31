@@ -15,7 +15,8 @@ class Loterias::LotofacilController < ApplicationController
 
   def latest
     begin
-      @lotofacil = LotoFacilGame.get_latest_game('http://www1.caixa.gov.br/mobile/loterias/asp/lotofacil_pok.asp')
+      @latestgame = LotoFacilGame.init_from_array(
+                      LotoFacilGame.get_latest_game('http://www1.caixa.gov.br/mobile/loterias/asp/lotofacil_pok.asp'))
     rescue Exception => exc
       
     end
@@ -29,7 +30,7 @@ class Loterias::LotofacilController < ApplicationController
   end
 
   def last
-    @latestgame = LotoFacilGame.maximum(:game_date)
+    @lotofacil = LotoFacilGame.where(:game_date => LotoFacilGame.maximum(:game_date)).first
 
     respond_to do |format|
       format.xml { render :xml => @lotofacil }
