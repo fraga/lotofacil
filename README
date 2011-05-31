@@ -1,4 +1,3 @@
-== Welcome to Lotofacil
+== Welcome to Lotofacil ==
 
-This application is meant to be a restful simple parser to easy the life of developers seeking for structured information on
-lotery games.
+Simple ruby on rails application to read lotofacil games information. Parses also in json and xml, simple format.
